@@ -1,54 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>FlexBox Crash Course</title>
-</head>
-<body>
-  
-  <div class="flex-container flex-container0">
-    <div class="item">Justify Content</div>
-    <div class="item">Justify Content</div>
-    <div class="item">Justify Content</div>
-  </div>
-  <div class="flex-container flex-container1">
-    <div class="item">Justify Content</div>
-    <div class="item">Justify Content</div>
-    <div class="item">Justify Content</div>
-  </div>
-  <div class="flex-container flex-container2">
-    <div class="item">Justify Content</div>
-    <div class="item">Justify Content</div>
-    <div class="item">Justify Content</div>
-  </div>
-  <div class="flex-container flex-container3">
-    <div class="item">Justify Content</div>
-    <div class="item">Justify Content</div>
-    <div class="item">Justify Content</div>
-  </div>
-  <div class="flex-container flex-container4">
-    <div class="item">Align Items</div>
-    <div class="item">Align Items</div>
-    <div class="item">Align Items</div>
-  </div>
-  <div class="flex-container flex-container5">
-    <div class="item">Align Items</div>
-    <div class="item">Align Items</div>
-    <div class="item">Align Items</div>
-  </div>
-  <div class="flex-container flex-container6">
-    <div class="item">Align Items</div>
-    <div class="item">Align Items</div>
-    <div class="item">Align Items</div>
-  </div>
-  <div class="flex-container flex-container7">
-    <div class="item2">Align Items</div>
-    <div class="item2">Align Items</div>
-    <div class="item2">Align Items</div>
-  </div>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>FlexBox Crash Course</title>
+  </head>
+  <body>
+    <div class="note">
+      <h2>Row-Wise</h2>
+      <p>
+        <i>Note:</i> Remember In Row-Wise
+        <b>Justify Content => Horizontal Axis</b><br />
+        <b>Align Items => Vertical Axis</b>
+      </p>
+    </div>
+    <div class="flex-container flex-container0">
+      <div class="item">
+        Justify Content 1 <br /><br />
+        Flex-Direction
+      </div>
+      <div class="item">
+        Justify Content 2 <br /><br />
+        Flex-Direction
+      </div>
+      <div class="item">
+        Justify Content 3 <br /><br />
+        Flex-Direction
+      </div>
+    </div>
+    <div class="flex-container flex-container1">
+      <div class="item">Justify Content</div>
+      <div class="item">Justify Content</div>
+      <div class="item">Justify Content</div>
+    </div>
+    <div class="flex-container flex-container2">
+      <div class="item">Justify Content</div>
+      <div class="item">Justify Content</div>
+      <div class="item">Justify Content</div>
+    </div>
+    <div class="flex-container flex-container3">
+      <div class="item">Justify Content</div>
+      <div class="item">Justify Content</div>
+      <div class="item">Justify Content</div>
+    </div>
+    <div class="flex-container flex-container4">
+      <div class="item">Align Items</div>
+      <div class="item">Align Items</div>
+      <div class="item">Align Items</div>
+    </div>
+    <div class="flex-container flex-container5">
+      <div class="item">Align Items</div>
+      <div class="item">Align Items</div>
+      <div class="item">Align Items</div>
+    </div>
+    <div class="flex-container flex-container6">
+      <div class="item">Align Items</div>
+      <div class="item">Align Items</div>
+      <div class="item">Align Items</div>
+    </div>
+    <div class="flex-container flex-container7">
+      <div class="item2">Align Items 1</div>
+      <div class="item2">Align Items 2</div>
+      <div class="item2">Align Items 3</div>
+    </div>
+
+    <div class="note">
+      <h2>Column-Wise</h2>
+      <p>
+        <i>Note:</i> Remember In Column-Wise Layout The Role Of
+        <b>Justify Content</b> and <b>Align Items</b> Become <b>reverse</b>.
+      </p>
+    </div>
+
+    <!--Column Wise-->
+    <div class="flex-col-container">
+      <div class="col-item">Align Items 1</div>
+      <div class="col-item">Align Items 2</div>
+      <div class="col-item">Align Items 3</div>
+    </div>
+
+    <div class="note">
+      <h2>Flex Wrap</h2>
+    </div>
+
+    <div class="flex-container flex-container0 flex-wrap-paractice">
+      <div class="item">Justify Content</div>
+      <div class="item">Justify Content</div>
+      <div class="item">Justify Content</div>
+      <div class="item">Justify Content</div>
+      <div class="item">Justify Content</div>
+      <div class="item">Justify Content</div>
+      <div class="item">Justify Content</div>
+      <div class="item">Justify Content</div>
+      <div class="item">Justify Content</div>
+    </div>
+    <div class="note">
+      <h2>Flex Grow</h2>
+    </div>
+
+    <div class="flex-container flex-grow-container">
+      <div class="item-grow">Flex Grow</div>
+      <div class="item-grow">Flex Grow</div>
+      <div class="item-grow">Flex Grow</div>
+    </div>
+  </body>
 </html>
